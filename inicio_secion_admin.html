@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template with Local Images</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 250px;
+            height: 150px;
+            border-radius: 5%;
+        }
+        .centered-message {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body class="bg-body-tertiary text-center">
+
+<main class="form-signin w-100 m-auto">
+    <div class="image-container">
+        <img src="iteshu.png" alt="Image 1">
+        <span class="centered-message">DEPARTAMENTO DE BECAS 'ITESHU'!</span>
+        <img src="LOGO-VERTICAL-TECNM.png" alt="Image 2">
+    </div>
+    
+    <form>
+        <h1 class="h3 mb-3 fw-normal">Por favor, inicia sesión, esta seccion es solo para administradores</h1>
+        
+        <div class="form-floating">
+            <label for="floatingInput">Usuario</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="USUARIO">        
+        </div>
+        <div class="form-floating">
+            <label for="floatingPassword">Contraseña</label>
+            <input type="password" class="form-control" id="floatingPassword" placeholder="CONTRASEÑA">
+        </div>
+
+        <button class="btn btn-primary w-100 py-2" type="submit">INICIAR SECION</button>
+    </form>
+</main>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
